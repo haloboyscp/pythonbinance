@@ -13,11 +13,11 @@ from itertools import count
 # used to store trades and sell assets
 import json
 
-user_key = "SLRKKhvLPchREFe5E1zbD3vNIRmafnEh0O61LqZsXTroPEYu3b2QZZj2gqNi9nbX"
-secret_key = "0BHCNNi4yiTeZ2rkihkWKVhornM8WPkF5dPGtuNTKYB22hKGjVt9EDr5HncPELNb"
+user_key = "xx"
+secret_key = "xx"
 
 from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
-client = Client("SLRKKhvLPchREFe5E1zbD3vNIRmafnEh0O61LqZsXTroPEYu3b2QZZj2gqNi9nbX", "0BHCNNi4yiTeZ2rkihkWKVhornM8WPkF5dPGtuNTKYB22hKGjVt9EDr5HncPELNb")
+client = Client("xx", "xx")
 binance_client = Client(user_key, secret_key)
 
 # select what to pair the coins to and pull all coins paied with PAIR_WITH
